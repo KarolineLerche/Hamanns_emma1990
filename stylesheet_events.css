@@ -15,7 +15,8 @@ nav{
 }
 
 nav img{
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: block;
   float: left;
 }
@@ -25,16 +26,21 @@ nav div a{
   float: left;
   color: #464a38;
   font-family: 'Montserrat', sans-serif;
-  margin-right: 20px;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 nav div i{
   color: #464a38;
+  margin-right: 25px;
 }
 
 .navbar-left{
   margin-top: 16px;
+}
+
+.navbar-left a{
+  margin-left: 30px;
 }
 
 .navbar-right{
@@ -111,6 +117,7 @@ nav div i{
   border-radius: 30px;
   padding: 3px 8px 3px 8px;
   transition: all .2s ease-in-out;
+  margin-right: 20px;
 }
 
 #book-button:hover{
@@ -563,44 +570,6 @@ hr{
 
 
 
-
-/* SLIDESHOW SHOP */    
-.slideshow_SHOP{
-  height: 500px;
-  width:100%;
-}
-
-.slideshow_SHOP img{
-  width: 100%;
-}
-
-.w3-content{
-  width: 100%;
-}
-
-.slideshow{
-  display:flex;
-  justify-content:space-around;
-  width:100%;
-  flex-wrap:wrap;
-  margin-top: 0px;
-  height: 640px;}
-  
-.slideshow div{
-  position: relative;
-  margin-top: 0px;
-  justify-content: space-around;
-  width: 90%;
-}
-
-
-
-
-
-
-
-
-
 /*----FOOTER----*/
 /*--Vi har givet vores footer en klasse selvom dette ikke er nødvendigt da vi bare kunne bruge child select.
 Men af en eller anden årsag opførte footeren sig underligt når vi gjorde dette. Derfor gav vi den en klasse--*/
@@ -896,14 +865,7 @@ margin-bottom: 7%;
 left: 40%
 }
 
-.instagram_et{display: none;}
-.instagram_to{display: none;}
-.instagram_tre{display: none;}
 
-.instagram_app img{
-  align-items: center;
-  width: 100%; 
-}
 
 
 
@@ -923,7 +885,26 @@ left: 40%
 }
 
 
+/*----INSTAGRAM----*/
+.instagram_et{
+  flex-wrap: wrap;
+}
 
+.instagram_et div:first-child{
+  display: none;
+}
+
+.instagram_to{
+  flex-wrap: wrap;
+}
+
+.instagram_to div:nth-child(2){
+  display: none;
+}
+
+.instagram_tre{
+  display: none;
+}
 
 
 /*----FOOTER----*/

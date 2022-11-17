@@ -15,7 +15,8 @@ nav{
 }
 
 nav img{
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: block;
   float: left;
 }
@@ -25,16 +26,21 @@ nav div a{
   float: left;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  margin-right: 20px;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 nav div i{
   color: white;
+  margin-right: 25px;
 }
 
 .navbar-left{
   margin-top: 16px;
+}
+
+.navbar-left a{
+margin-left: 30px;
 }
 
 .navbar-right{
@@ -44,6 +50,7 @@ nav div i{
 #nav-mobile i{
   text-align: end;
   font-size: 40px;
+  
 }
 
 
@@ -111,6 +118,7 @@ nav div i{
   border-radius: 30px;
   padding: 3px 8px 3px 8px;
   transition: all .2s ease-in-out;
+  margin-right: 20px;
 }
 
 #book-button:hover{
@@ -226,6 +234,7 @@ nav div i{
   font-size: 20px;
 }
 
+
 /*----Så den slider ind fra højre----*/
 #menuToggle input:checked ~ ul{
   transform: none;
@@ -252,7 +261,7 @@ nav div i{
 #logo{
   position: absolute;
   top: 150px;
-  left: 160px;
+  left: 12%;
 }
 
 
@@ -277,7 +286,7 @@ nav div i{
 #book-button-forside a{
   position: absolute;
   top: 530px;
-  left: 210px;
+  left: 17%;
 
   color: white;
   font-family: 'Montserrat', sans-serif;
@@ -416,7 +425,7 @@ Har du mon et bud på hvorfor dette kan være?----*/
   border-radius: 20px;
   position: absolute;
   bottom: 30px;
-  left: 115px;
+  left: 30%;
   transition: all .2s ease-in-out;
 }
 
@@ -829,6 +838,29 @@ header{
 
 
 /*----INSTAGRAM----*/
+
+.instagram_et{
+  flex-wrap: wrap;
+}
+
+.instagram_et div:first-child{
+  display: none;
+}
+
+.instagram_to{
+  flex-wrap: wrap;
+}
+
+.instagram_to div:nth-child(2){
+  display: none;
+}
+
+.instagram_tre{
+  display: none;
+}
+
+
+/*
 .instagram_et{display: none;}
 .instagram_to{display: none;}
 .instagram_tre{display: none;}
